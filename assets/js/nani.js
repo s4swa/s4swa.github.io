@@ -1,5 +1,5 @@
 var dnani = {
- dhtml : `<div class="social">
+ dhtml : `<div class="social" style="padding:0 16px;">
           
      </div>`
 };
