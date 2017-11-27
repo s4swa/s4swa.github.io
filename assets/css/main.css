@@ -4,10 +4,6 @@ body {
     font-family: Roboto,Source Sans Pro,Calibri,Arial,sans-serif;
     background: #222;
     margin: 0;
-    height: 100vh;
-    display: flex;
-    align-items: center;
-    justify-content: center;
 }
 
 html {
@@ -21,7 +17,7 @@ html {
 
 .home-div {
     display: block;
-    background-color: #2196f3;
+    background: #2196f3;
     margin: 16px auto;
     width: 95%;
     max-width: 700px;
@@ -31,8 +27,13 @@ html {
 }
 
 .logo {
-    width: 50%;
-    height: 50%;
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   height: 50%;
+   width: 50%;
+   margin-right: -50%;
+   transform: translate(-50%, -50%) }
 }
 
 ul.topnav {
@@ -61,6 +62,6 @@ ul.topnav li a.active {background-color: #4CAF50;}
 ul.topnav li.right {float: right;}
 
 @media screen and (max-width: 600px){
-    ul.topnav li.right, 
+    ul.topnav li.right,
     ul.topnav li {float: none;}
 }
