@@ -30,6 +30,11 @@ html {
     filter: drop-shadow(0 3px 4px #333);
 }
 
+.logo {
+    width: 50%;
+    height: 50%;
+}
+
 ul.topnav {
     list-style-type: none;
     margin: 0;
