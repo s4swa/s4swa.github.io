@@ -1,6 +1,29 @@
 body {margin: 0;}
 
+body {
+    font-family: Roboto,Source Sans Pro,Calibri,Arial,sans-serif;
+    background: #222;
+    margin: 0;
+}
+
+html {
+    font-family: sans-serif;
+    line-height: 1.15;
+    -ms-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+}
+
 .home {background-color: #2196f3;}
+
+.home-div {
+    display: block;
+    margin: 16px auto;
+    width: 95%;
+    max-width: 700px;
+    overflow: visible;
+    -webkit-filter: drop-shadow(0 3px 4px #333);
+    filter: drop-shadow(0 3px 4px #333);
+}
 
 ul.topnav {
     list-style-type: none;
