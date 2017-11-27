@@ -4,6 +4,10 @@ body {
     font-family: Roboto,Source Sans Pro,Calibri,Arial,sans-serif;
     background: #222;
     margin: 0;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 html {
