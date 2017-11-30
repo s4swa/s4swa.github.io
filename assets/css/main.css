@@ -13,14 +13,41 @@ html {
     -webkit-text-size-adjust: 100%;
 }
 
-ul.topnav a.home{
-    background-color: #2196f3;
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li {
+    float: left;
+    border-right:1px solid #bbb;
+}
+
+li.left-nav {
+    border-left:1px solid #bbb;
+}
+
+li a {
     display: block;
     color: white;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
-    list-style-type: none;
+}
+
+li a:hover:not(.active) {
+    background-color: #111;
+}
+
+.right {
+    float: right;
+}
+
+.active {
+    background-color: #2196f3;
 }
 
 .logo {
@@ -31,42 +58,4 @@ ul.topnav a.home{
    width: 50%;
    margin-right: -50%;
    transform: translate(-50%, -50%) }
-}
-
-.nav-button ul.topnav {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color: #333;
-    height: 48;
-}
-
-ul.topnav li {float: left;}
-
-ul.topnav li a {
-    display: block;
-    color: white;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-}
-
-.nav-button a {
-    display: block;
-    color: white;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-}
-
-ul.topnav li a:hover:not(.active) {background-color: #111;}
-
-ul.topnav li a.active {background-color: #4CAF50;}
-
-ul.topnav li.right {float: right;}
-
-@media screen and (max-width: 600px){
-    ul.topnav li.right,
-    ul.topnav li {float: none;}
 }
