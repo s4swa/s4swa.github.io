@@ -3,10 +3,8 @@ $(function() {
 	
   $(".nani").click(function() {
     social.html(window.dnani.dhtml);
-    $(".nani").addClass("active");
   });
-  $(".").click(function() {
-    social.html(window.committee.dhtml);
-	  
+  $(".home").click(function() {
+    social.html(window.dhome.dhtml);	  
   });
 });
