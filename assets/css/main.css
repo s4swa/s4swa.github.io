@@ -13,17 +13,14 @@ html {
     -webkit-text-size-adjust: 100%;
 }
 
-.home {background-color: #2196f3;}
-
-.home-div {
+ul.topnav a.home{
+    background-color: #2196f3;
     display: block;
-    background: #2196f3;
-    margin: 16px auto;
-    width: 95%;
-    max-width: 700px;
-    overflow: visible;
-    -webkit-filter: drop-shadow(0 3px 4px #333);
-    filter: drop-shadow(0 3px 4px #333);
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    list-style-type: none;
 }
 
 .logo {
@@ -36,7 +33,7 @@ html {
    transform: translate(-50%, -50%) }
 }
 
-ul.topnav {
+.nav-button ul.topnav {
     list-style-type: none;
     margin: 0;
     padding: 0;
@@ -48,6 +45,14 @@ ul.topnav {
 ul.topnav li {float: left;}
 
 ul.topnav li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.nav-button a {
     display: block;
     color: white;
     text-align: center;
