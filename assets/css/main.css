@@ -23,5 +23,7 @@ p {
 
 .url {
   text-decoration: none;
-  color: #14BAE4;
+  color: #14BAE4; 
 }
+
+.bluetext {color: #14BAE4;}
