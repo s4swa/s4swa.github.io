@@ -30,6 +30,10 @@ li a:hover:not(.active) {
     background-color: #111;
 }
 
+li a:hover:not(.inactive) {
+    background-color: #1D87DA;
+}
+
 .right {
     float: right;
 }
