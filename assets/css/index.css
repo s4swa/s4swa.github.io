@@ -20,11 +20,3 @@ html {
    margin-right: -50%;
    transform: translate(-50%, -50%) }
 }
-a.read-more {
-  text-align: center;
-  color: black;
-  font-size: 12px;
-  margin-top: 3em;
-  text-decoration: none;
-  color: #E74C3C;
-}
