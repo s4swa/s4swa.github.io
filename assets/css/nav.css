@@ -51,11 +51,6 @@ li a:hover:not(.inactive) {
     color: white;
 }
 
-.text-effect {
-    text-shadow: 3px 3px 15px black;
-    transition: all 0.5s ease;
-}
-
 .url {
   text-decoration: none;
   color: #E74C3C;
