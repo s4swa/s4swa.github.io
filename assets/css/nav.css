@@ -48,6 +48,9 @@ li a:hover:not(.inactive) {
     right: 0;
     padding-right: 10px;
     padding-bottom: 10px;
+}
+
+.white-text {
     color: white;
 }
 
