@@ -1,6 +1,6 @@
 body {
     font-family: Roboto,Source Sans Pro,Calibri,Arial,sans-serif;
-    background: #E2E4EF;
+    background: #111;
     margin: 0;
 }
 
@@ -14,24 +14,20 @@ html {
 h1 {
     text-align: center;
     font-size: 100px;
+    color: white;
 }
 
 p {
     text-align: center;
     font-size: 30px;
     width: 1000px;
+    color: white;
 }
 
 .text-url {
   text-decoration: none;
   color: #14BAE4;
 }
-
-.title {
-  background-color: #2196f3;
-  background-size: cover;
-}
-
 
 .blue-text {color: #14BAE4;}
 
