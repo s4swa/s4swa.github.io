@@ -47,3 +47,39 @@ footer {
     background: #222;
     color: #888;
 }
+
+.container {
+    margin: 0 auto;
+    max-width: 1120px;
+}
+
+footer .container {
+    text-align: center;
+}
+
+strong {
+    font-weight: bold;
+}
+
+strong {
+    font-weight: inherit;
+    font-weight: bolder;
+}
+
+footer a {
+    transition: color .3s,border-color .3s,background-color .3s;
+    text-decoration: none;
+    color: #888;
+}
+
+a {
+    background-color: transparent;
+    -webkit-text-decoration-skip: objects;
+}
+
+p {
+    -webkit-margin-before: 1em;
+    -webkit-margin-after: 1em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+}
