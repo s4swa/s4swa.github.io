@@ -41,8 +41,3 @@ li a:hover:not(.inactive) {
 .active {
     background-color: #2196f3;
 }
-
-.url {
-  text-decoration: none;
-  color: #E74C3C;
-}
