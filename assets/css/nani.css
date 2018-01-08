@@ -42,29 +42,24 @@ p {
    transform: translate(-50%, -50%) }
 }
 
-footer {
-    padding: 3rem;
-    background: #222;
-    color: #888;
-    font-size: 20px;
+.credits {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    padding-right: 10px;
+    padding-bottom: 10px;
 }
 
-.container {
-    margin: 0 auto;
-    max-width: 1120px;
+.text-effect {
+    text-shadow: 3px 3px 15px black;
+    transition: all 0.5s ease;
 }
 
-footer .container {
-    text-align: center;
-}
-
-strong {
-    font-weight: bold;
-}
-
-strong {
-    font-weight: inherit;
-    font-weight: bolder;
+.box {
+    background: rgba(0, 0, 0, 0.7);
+    border-radius: 10px 0px 0px 0px;
+    padding-left: 10px;
+    padding-top: 10px;
 }
 
 .url {
