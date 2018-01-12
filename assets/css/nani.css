@@ -4,6 +4,8 @@ body {
     margin: 0;
 }
 
+
+
 html {
     font-family: sans-serif;
     line-height: 1.15;
@@ -50,6 +52,11 @@ p {
     padding-bottom: 10px;
 }
 
+.url {
+  text-decoration: none;
+  color: #E74C3C;
+}
+
 .text-effect {
     text-shadow: 3px 3px 15px black;
     transition: all 0.5s ease;
@@ -60,10 +67,4 @@ p {
     border-radius: 10px 0px 0px 0px;
     padding-left: 10px;
     padding-top: 10px;
-}
-
-.url {
-    text-decoration: none;
-    color: #E74C3C;
-
 }
