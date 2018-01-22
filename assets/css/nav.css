@@ -41,3 +41,28 @@ li a:hover:not(.inactive) {
 .active {
     background-color: #2196f3;
 }
+
+.credits {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    padding-right: 10px;
+    padding-bottom: 10px;
+}
+
+.url {
+  text-decoration: none;
+  color: #E74C3C;
+}
+
+.text-effect {
+    text-shadow: 3px 3px 15px black;
+    transition: all 0.5s ease;
+}
+
+.box {
+    background: rgba(0, 0, 0, 0.7);
+    border-radius: 10px 0px 0px 0px;
+    padding-left: 10px;
+    padding-top: 10px;
+}
