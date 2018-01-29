@@ -1,0 +1,50 @@
+body {
+    font-family: Roboto,Source Sans Pro,Calibri,Arial,sans-serif;
+    background: #111;
+    margin: 0;
+}
+
+
+
+html {
+    font-family: sans-serif;
+    line-height: 1.15;
+    -ms-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+}
+
+h1 {
+    text-align: center;
+    font-size: 100px;
+    color: white;
+}
+
+p {
+    text-align: center;
+    font-size: 30px;
+    width: 90%;
+    color: #FFFFFF;
+}
+
+.text-url {
+  text-decoration: none;
+  color: #14BAE4;
+}
+
+.blue-text {color: #14BAE4;}
+
+.logo {
+   position: relative;
+   top: 50%;
+   left: 50%;
+   height: 50%;
+   width: 50%;
+   margin-top: 1%;
+   margin-right: -50%;
+   transform: translate(-50%, -50%) }
+}
+
+.steps{
+  color: #FFFFFF;
+  font-weight: bold;
+}
