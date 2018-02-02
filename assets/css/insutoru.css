@@ -16,7 +16,7 @@ html {
 h1 {
     text-align: center;
     font-size: 100px;
-    color: white;
+    color: #FFFFFF;
 }
 
 p {
@@ -29,6 +29,10 @@ p {
 .text-url {
   text-decoration: none;
   color: #14BAE4;
+}
+
+.text {
+  color: #FFFFFF;
 }
 
 .blue-text {color: #14BAE4;}
