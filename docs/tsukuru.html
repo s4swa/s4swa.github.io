@@ -58,9 +58,31 @@
       </div>
 
       <div class="social home-div" style="padding:0 200px;">
+          <p>Getting your first bot running
+          Note: I honestly consider that if you don't understand the code you're about to see, coding a bot might not be for you. If you do not understand the following sample, please go to CodeAcademy and learn Javascript first. I beg of you: stop, drop, and roll.
+          Ok finally, we're ready to start coding. \o/ Let's take a look at the most basic of examples, the ping-pong bot. Here's the code in its entirety:
+          <code class="example">const Discord = require("discord.js");
+            const client = new Discord.Client();<br><br>
 
+            client.on("ready", () => {<br>
+                console.log("I am ready!");<br>
+            });<br><br>
 
+            client.on("message", (message) => {<br>
+                if (message.content.startsWith("ping")) {<br>
+                    message.channel.send("pong!");<br>
+                }<br>
+            });<br><br>
 
+            client.login("BotTokenHere");<br><br></code>
+            (The variable client here is used an an example to represent the {Client} class. Some people call it bot, but you can technically call it whatever you want. I recommend sticking to client though!)<br>
+            Copy that code and paste it in your editor.<br>
+            Replace the string in the client.login() function with your secret token<br>
+            Save the file as mybot.js.<br>
+            In the Command Prompt (which should be in your project folder) type the following command: <code class="cmd">node mybot.js</code><br>
+            If all went well (hopefully it did) your bot is now connected to your server, it's in your userlist, and ready to answer all your commands... Well, at least, one command: ping. In its current state, the bot will reply "pong!" to any message that starts with, exactly, ping.
+            Success! You now have a bot running!
+</p>
 
 
       </div>
