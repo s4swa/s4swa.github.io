@@ -61,20 +61,20 @@
           <p>Getting your first bot running
           Note: I honestly consider that if you don't understand the code you're about to see, coding a bot might not be for you. If you do not understand the following sample, please go to CodeAcademy and learn Javascript first. I beg of you: stop, drop, and roll.
           Ok finally, we're ready to start coding. \o/ Let's take a look at the most basic of examples, the ping-pong bot. Here's the code in its entirety:
-          <code class="example">const Discord = require("discord.js");
-            const client = new Discord.Client();<br><br>
+          <code class="example"><span color="purple">const</span> Discord = <span color="yellow">require</span>("<span color="lightgreen">discord.js</span>");
+            <span color="purple">const</span> client = <span color="purple">new</span> Discord.Client();<br><br>
 
-            client.on("ready", () => {<br>
-                console.log("I am ready!");<br>
+            client.on("<span color="green">ready</span>", () => {<br>
+              <span color="yellow">console</span>.log("<span color="green">I am ready!</span>");<br>
             });<br><br>
 
-            client.on("message", (message) => {<br>
-                if (message.content.startsWith("ping")) {<br>
-                    message.channel.send("pong!");<br>
+            client.on("<span color="green">message</span>", (message) => {<br>
+                <span color="purple">if</span> (message.content.startsWith("<span color="green">ping</span>")) {<br>
+                    message.channel.send("<span color="green">pong!</span>");<br>
                 }<br>
             });<br><br>
 
-            client.login("BotTokenHere");<br><br></code>
+            client.login("<span color="green">BotTokenHere</span>");<br><br></code>
             (The variable client here is used an an example to represent the {Client} class. Some people call it bot, but you can technically call it whatever you want. I recommend sticking to client though!)<br>
             Copy that code and paste it in your editor.<br>
             Replace the string in the client.login() function with your secret token<br>
