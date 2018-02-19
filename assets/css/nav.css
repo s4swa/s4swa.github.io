@@ -43,7 +43,7 @@ li a:hover:not(.inactive) {
 }
 
 .credits {
-    position: absolute;
+    position: fixed;
     bottom: 0;
     right: 0;
     padding-right: 10px;

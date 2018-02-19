@@ -19,13 +19,29 @@ h1 {
 
 p {
     text-align: left;
-    font-size: 17px;
+    font-size: 25px;
     width: 90%;
-    margin: 10px;
+    margin: 5px;
+    color: #FFFFFF;
 }
 
-p.textman{
-    color: #FFFFFF;
+.textman {
+  color: #FFFFFF;
+  font-size: 25px;
+}
+
+.example {
+  color: #FFFFFF;
+}
+
+pre {
+  background: #1b1b1b;
+  padding: 4px;
+  border-radius: 4px;
+  text-align: left;
+  white-space: pre;
+  font-family: monospace,monospace;
+  font-size: 1.25em;
 }
 
 .text-url {
@@ -39,9 +55,9 @@ p.textman{
 
 .cmd {
   color: #abb2bf;
-}
+  font-size: 23px;
 
-.blue-text {color: #14BAE4;}
+}
 
 .yellow {color: #e6c07b;}
 .purple {color: #c678dd;}
