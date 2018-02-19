@@ -58,14 +58,14 @@
       </div>
 
       <div class="social home-div" style="padding:0 200px;">
-          <p><span class="textman">Getting your first bot running
+          <p>>Getting your first bot running
           Note: I honestly consider that if you don't understand the code you're about to see, coding a bot might not be for you. If you do not understand the following sample, please go to CodeAcademy and learn Javascript first. I beg of you: stop, drop, and roll.
-          Ok finally, we're ready to start coding. \o/ Let's take a look at the most basic of examples, the ping-pong bot. Here's the code in its entirety:</span><br><br><br>
+          Ok finally, we're ready to start coding. \o/ Let's take a look at the most basic of examples, the ping-pong bot. Here's the code in its entirety:<br><br><br>
           <code class="example"><span class="purple">const</span> Discord = <span class="yellow">require</span>("<span class="lightgreen">discord.js</span>");
             <span class="purple">const</span> client = <span class="purple">new</span> Discord.Client();<br><br>
 
             client.on("<span class="green">ready</span>", () => {<br>
-              <span class="yellow">console</span>.log("<span class="green">I am ready!</span>");<br>
+              <span class="yellow">console</span>.log(`<span class="green">Logged in as </span><span class="red">${client.user.tag}</span>`);<br>
             });<br><br>
 
             client.on("<span class="green">message</span>", (message) => {<br>
