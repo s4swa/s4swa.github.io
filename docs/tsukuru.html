@@ -69,7 +69,7 @@ client.on("<span class="green">ready</span>", () => {
 });<br><br>
 
 client.on("<span class="green">message</span>", (message) => {
-  <span class="purple">if</span> (message.content.startsWith("<span class="green">ping</span>")) {
+  <span class="purple">if</span> (message.content.startsWith("<span class="green">!ping</span>")) {
     message.channel.send("<span class="green">pong!</span>");
   }
 });
@@ -81,8 +81,8 @@ client.login("<span class="green">BotTokenHere</span>");
             Replace the string in the client.login() function with your secret token<br>
             Save the file as mybot.js.<br>
             In the Command Prompt (which should be in your project folder) type the following command: <code class="cmd">node mybot.js</code><br>
-            If all went well (hopefully it did) your bot is now connected to your server, it's in your userlist, and ready to answer all your commands... Well, at least, one command: ping. In its current state, the bot will reply "pong!" to any message that starts with, exactly, ping.
-            Success! You now have a bot running! <img src="./../assets/images/ping.png" alt="Smiley face"></span>
+            If all went well (hopefully it did) your bot is now connected to your server, it's in your userlist, and ready to answer all your commands... Well, at least, one command: !ping. In its current state, the bot will reply "pong!" to any message that starts with, exactly, !ping.
+            Success! You now have a bot running! <img src="./../assets/images/ping.png" alt="Smiley face" style="margin: 15px;"></span>
 </p>
 
 
