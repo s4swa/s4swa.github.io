@@ -17,6 +17,10 @@ h1 {
     color: #FFFFFF;
 }
 
+.social {
+    margin: 40px;
+}
+
 p {
     text-align: left;
     font-size: 25px;
